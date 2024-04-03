@@ -1,0 +1,43 @@
+import java.io.*;
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        Scanner input=new Scanner(System.in);
+        System.out.println("sample input:");
+        int x=input.nextInt();
+        int[] arr=new int[27];
+        arr[1]='A';
+        arr[2]='B';
+        arr[3]='C';
+        arr[4]='D';
+        arr[5]='E';
+        arr[6]='F';
+        arr[7]='G';
+        arr[8]='H';
+        arr[9]='I';
+        arr[10]='J';
+        arr[11]='K';
+        arr[12]='L';
+        arr[13]='M';
+        arr[14]='N';
+        arr[15]='O';
+        arr[16]='P';
+        arr[17]='Q';
+        arr[18]='R';
+        arr[19]='S';
+        arr[20]='T';
+        arr[21]='U';
+        arr[22]='V';
+        arr[23]='W';
+        arr[24]='X';
+        arr[25]='Y';
+        arr[26]='Z';
+
+        for(int i=1;i<=x;i++){
+            for(int j=0;j<i;j++){
+                System.out.printf("%c",arr[i]);
+            }
+            System.out.println("");
+        }
+    }
+}
